@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#canvas {
+    border: 0px;
+    transform:translateZ(0);
+}
+#jump {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 2%;
+    top: 30%;
+    font-size: 20px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 13px;
+    background-color: gray;
+    opacity: 0.4;
+    user-select: none;
+    z-index: 999;
+}
+#jump:active {
+    opacity: 1;
+}
+#roll {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 80%;
+    top: 30%;
+    font-size: 20px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 13px;
+    background-color: gray;
+    opacity: 0.4;
+    user-select: none;
+    z-index: 999;
+}
+#roll:active {
+    opacity: 1;
+}
+#sit {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 90%;
+    top: 60%;
+    font-size: 20px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 13px;
+    background-color: gray;
+    opacity: 0.4;
+    user-select: none;
+    z-index: 999;
+}
+#sit:active {
+    opacity: 1;
+}
+#score {
+    position: absolute;
+    top: 10px;
+    left: 1%;
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+}
